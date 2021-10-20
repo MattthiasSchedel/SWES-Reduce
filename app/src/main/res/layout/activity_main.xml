@@ -9,12 +9,6 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/reduceButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="REDUCE!" />
-
     <EditText
         android:id="@+id/nenner"
         style="@android:style/Widget.EditText"
@@ -24,6 +18,13 @@
         android:ems="10"
         android:hint="Nenner"
         android:inputType="numberSigned"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="________________________________________________"
         android:textAlignment="center" />
 
     <EditText
@@ -36,11 +37,10 @@
         android:inputType="numberSigned"
         android:textAlignment="center" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/reduceButton"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="________________________________________________"
-        android:textAlignment="center" />
+        android:text="REDUCE!" />
 
 </LinearLayout>
