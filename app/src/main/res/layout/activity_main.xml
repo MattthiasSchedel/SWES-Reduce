@@ -4,10 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EDF1F0"
+    android:background="#1EC198"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/reduceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REDUCE!" />
+
+    <EditText
+        android:id="@+id/nenner"
+        style="@android:style/Widget.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:hint="Nenner"
+        android:inputType="numberSigned"
+        android:textAlignment="center" />
 
     <EditText
         android:id="@+id/zaehler"
@@ -25,22 +42,5 @@
         android:layout_height="wrap_content"
         android:text="________________________________________________"
         android:textAlignment="center" />
-
-    <EditText
-        android:id="@+id/nenner"
-        style="@android:style/Widget.EditText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:drawable/editbox_background"
-        android:ems="10"
-        android:hint="Nenner"
-        android:inputType="numberSigned"
-        android:textAlignment="center" />
-
-    <Button
-        android:id="@+id/reduceButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="REDUCE!" />
 
 </LinearLayout>
